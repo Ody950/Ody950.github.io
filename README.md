@@ -63,37 +63,97 @@ Documentation is one of the most important components of my study project. Durin
 
 #  2- Prework - Part 2
 
+## a) Prep: Introduction to SQL
+
+In this course, I learned how to interact with an existing database. It begins with an introduction to the various components of an SQL query and then moves on to show how to alter a table (or schema) and create new tables from scratch. I learned a concept and performed an interactive exercise in each lesson. With this course, I have gained a solid foundation for using SQL in my own projects and for my future endeavors.
 
 
-1. ***Net and OOP***
-The lecturer has covered several points:
-- Practice Debugging.
-- Numbers Game: 
-    - Math game
-    - Manipulates data
-    
-  
+- SQL Lesson 1: SELECT queries 101
+![1s](./Image/sql/1S.jpg)
+- SQL Lesson 2: Queries with constraints (Pt. 1)
 
-       ![Numbers Game](https://www.mathgames.com/images/skill-preview/51755c41270d6d6b030000dc.png)
+  ![2s](./Image/sql/2S.jpg)
+- SQL Lesson 3: Queries with constraints (Pt. 2)
+  ![3s](./Image/sql/3S.jpg)
+- SQL Lesson 4: Filtering and sorting Query results
+  ![4s](./Image/sql/4S.jpg)
+
+- SQL Review: Simple SELECT Queries
+  ![5s](./Image/sql/5S.jpg)
+
+- SQL Lesson 6: Multi-table queries with JOINs
+  ![6s](./Image/sql/6S.jpg)
+
+- SQL Lesson 13: Inserting rows
+  ![13s](./Image/sql/13s.jpg)
+
+- SQL Lesson 14: Updating rows
+  ![14s](./Image/sql/14s.jpg)
+
+- SQL Lesson 15: Deleting rows
+  ![15s](./Image/sql/15s.jpg)
+
+- SQL Lesson 16: Creating tables
+  ![16s](./Image/sql/16s.jpg)
+
+- SQL Lesson 17: Altering tables
+  ![17s](./Image/sql/17s.jpg)
+
+- SQL Lesson 18: Dropping tables
+
+  ![18s](./Image/sql/18s.jpg)
+
+
+
+
+## b ) Prep: Practice in the Terminal
+
+
+- Some tasks are best suited to a GUI, while others are more suited to the command line. For example, word processing and video editing are great examples of tasks that are best suited to a GUI. We Can open up a command line interface just as another window on their desktop. This is also to our advantage as we can have several command lines open and doing different tasks in each at the same time. 
+
+- Many tasks rely on being able to get to or reference the correct location in the system and that as such, we can use pwd which stands for Print Working Directory, this will  tells me what my current or present working directory is. directories are actually just a special type of file and that it would be more accurate to say that a path is a means to get to a particular location in the system and that location is a file.
+
+- Manual pages are a set of pages that explain every command available on my system, i can  search on the Manual pages which can be helpful if iam not quite sure of what command i may want to use. hand command line options begin with two dashes ( – ) and short hand options begin with a single dash ( - ).to creating a directory we use command we are after is mkdir which is short for Make Directory. 
+
+
+
+
+## c ) Prep: The Growth Mindset
+
+1- technical skills:
+Upgrading technical skills with deliberate practice is important for me as a .NET software development employee because it improves my hard technical skills, exposes me to new opportunities, expands my knowledge into multiple fields and ultimately allows them to do more things with computers. in my previous work as technical support employees I learned how to solve problems by practicing and learning from my mistakes. also, I'm learned how to communicate technical ideas to non-technical people by breaking down complex ideas into simpler terms.
+
+
+2- The power of believing that you can improve:
+Believing that i can improve is important for me as .NET software development employees because it helps me to develop a growth mindset. A growth mindset is the belief that you can develop your abilities through hard work and dedication. This mindset can help me to learn new skills and technologies, take on new challenges, and ultimately become better developers. As for an analogy from my previous work experience as technical support, I would say that having a growth mindset is like being a technical support agent who believes that they can solve any problem with enough time and effort. I don’t give up easily when faced with a difficult issue but instead keep trying different solutions until I find one that works. 
+
+
+
+
+3- The power of passion and perseverance:
+The power of passion and perseverance is an important topic for me as .NET software development employees because it can help me stay motivated and focused on my work. When you’re passionate about what you do, you’re more likely to put in the time and effort needed to succeed. Perseverance is also important because it helps you overcome obstacles and challenges that you may encounter along the way. By combining passion and perseverance, I can achieve great things and make a real difference in my field.in my previous work as technical support agent I was passionate about helping customers and is willing to persevere through difficult issues until they are resolved. This approach helps me stay motivated and focused on my work, even when faced with challenging problems. 
+
+
+
+
+4- A kinder, gentler philosophy of success:
+A kinder, gentler philosophy of success is an important topic for me as a .NET software development employee because it can help me achieve my goals in a more sustainable and fulfilling way. Instead of focusing solely on external measures of success like money or status, this philosophy encourages people to prioritize their own well-being and happiness. By doing so, I can create a more positive and supportive work environment that fosters creativity, collaboration, and innovation. This can lead to better outcomes for everyone involved, including the company, its employees, and its customers.as a technical support agent i prioritizes customer satisfaction and well-being over metrics like call volume or resolution time. By doing so, they can create a more positive and supportive work environment that fosters creativity, collaboration, and innovation. This can lead to better outcomes for everyone involved, including the company, its employees, and its customers.
+
+
+
+
+5- Measuring Emotional Intelligence Task: 23 from 25 
+Emotional Intelligence is learnable and developmental by use feedback from others, mentoring within the organization or friendship circles, and books and seminars to develop in those areas.
 
 
 
 
 
+6- Assessing Bias Tasks: 102 from 120
+It seems that I have scored well in Assessing Bias Tasks. The results suggest that I have high self-awareness, curiosity, and courage.  It is important to be aware of these biases and examine where I still have room for improvement. These biases are learned assumptions, beliefs, or attitudes that exist in the subconscious and are developed over time as we accumulate life experiences and get exposed to different stereotypes.
 
-2. ***Object Design***
-The lecturer has covered several points:
-   + Object Oriented Principles.
-   + Interfaces. 
-
-
-     ![Object Oriented Principles](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQALRUZDxbGrR1eURWkV03aY5BIXn09tjp1mdn14RiiDMPmsir4m-UDI6tF7KczkcIPejM&usqp=CAU)
-
-3. ***Databases and APIs***
-   The lecturer has covered several points:
-   + Introduction to Databases and ERDs.
-   + Dependency Injection & Repository Design Pattern. 
-![Discord](https://f4n3x6c5.stackpathcdn.com/article/implementing-unit-of-work-and-repository-pattern-with-dependency-injection-in-n/Images/Unit%20Of%20Work%20and%20Repository%20Pattern%20With%20Dependency%20Injection.png)
+ 
+ 
 
 
 
