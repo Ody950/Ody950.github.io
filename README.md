@@ -171,3 +171,6 @@ It seems that I have scored well in Assessing Bias Tasks. The results suggest th
 
 
 
+## D ) Data Structures and Algorithms
+
+[Data-Structures-and-Algorithms](./Data-Structures-Algorithms.md) 
