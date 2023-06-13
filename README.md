@@ -18,7 +18,7 @@ Documentation is one of the most important components of my study project. Durin
 
 | Contents | Link |
 | -------- | -------- |
-| Row 1, Column 1 | [Read-Class01](./Read-Class01.md)  |
+| Read: Class 01 | [Read-Class01](./Read-Class01.md)  |
 | Read: Class 02 | [Read-Class02](./Read-Class02.md) |
 
 <div>&nbsp;&emsp;</div>
@@ -174,3 +174,7 @@ It seems that I have scored well in Assessing Bias Tasks. The results suggest th
 ## D ) Data Structures and Algorithms
 
 [Data-Structures-and-Algorithms](./Data-Structures-Algorithms.md) 
+
+## E ) Engineering Readings
+
+[Engineering-Readings](./Engineering-Readings.md) 
