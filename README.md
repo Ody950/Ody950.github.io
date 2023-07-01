@@ -18,11 +18,12 @@ Documentation is one of the most important components of my study project. Durin
 
 | Contents | Link |
 | -------- | -------- |
-| Read: Class 01 | [Read-Class01](./Read-Class01.md)  |
+| Read: Class 01 | [Read-Class01](./Read-Class01.md) |
 | Read: Class 02 | [Read-Class02](./Read-Class02.md) |
 | Read: Class 03 | [Read-Class03](./Read-Class03.md) |
 | Read: Class 04 | [Read-Class04](./Read-Class04.md) |
 | Read: Class 06 | [Read-Class06](./Read-Class06.md) |
+| Read: Class 07 | [Read-Class07](./Read-Class07.md) |
 
 <div>&nbsp;&emsp;</div>
 <div>&nbsp;&emsp;</div>
