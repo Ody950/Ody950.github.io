@@ -16,11 +16,11 @@ LIFO : Last In First Out and it means that the Last item added to the stack will
 
 
  Stack terminology:
-- Push ==> Nodes or items that are put into the stack are pushed.
-- Pop ==> Nodes or items that are removed from the stack are popped.
-- Top ==> This is the top of the stack.
-- Peek ==> When you peek you will view the value of the top Node in the stack.
-- IsEmpty ==> returns true when stack is empty otherwise returns false.
+- Push :  Nodes or items that are put into the stack are pushed.
+- Pop :  Nodes or items that are removed from the stack are popped.
+- Top :  This is the top of the stack.
+- Peek :  When you peek you will view the value of the top Node in the stack.
+- IsEmpty :  returns true when stack is empty otherwise returns false.
 
 
 # Queues
@@ -33,10 +33,10 @@ FIFO : First In First Out and it means that the First item added to the stack wi
 
 Queue terminology: 
 
-- Enqueue ==> Nodes or items that are added to the queue.
-- Dequeue ==> Nodes or items that are removed from the queue. 
-- Rear ==> This is the last Node of the queue.
-- Front ==> This is the first Node of the queue.
-- Peek ==> When you peek you will view the value of the front Node in the queue.
-- IsEmpty ==> returns true when queue is empty otherwise returns false.
+- Enqueue :  Nodes or items that are added to the queue.
+- Dequeue :  Nodes or items that are removed from the queue. 
+- Rear :  This is the last Node of the queue.
+- Front : This is the first Node of the queue.
+- Peek :  When you peek you will view the value of the front Node in the queue.
+- IsEmpty :  returns true when queue is empty otherwise returns false.
 
