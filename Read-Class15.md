@@ -1,6 +1,6 @@
 
 
-# lazy loading and eager loading
+# Trees
 
 
 ## why this topic matters as it relates to what Iam studying in this module?
