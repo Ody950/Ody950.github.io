@@ -5,22 +5,60 @@
 
 ## why this topic matters as it relates to what Iam studying in this module?
 
-Using lazy loading when you have a number of entities that you do not need to access immediately is one of the best ways to improve performance in .NET development. In addition to improving performance, it can help reduce the amount of data that has to be loaded from the database. You should take advantage of eager loading in cases in which you know that you will need to access related entities immediately. By using it, fewer database queries may be executed and performance may be improved.
+Trees offer quicker search, insertion, and deletion than other data structures, such as linked lists, because of their shorter depth, and Trees do not have a fixed size like arrays, so they can grow and shrink as needed, making them very flexible, especially when dealing with dynamic data sets. 
 
 ## Summary
 
+Trees are a powerful data structure with many applications. Trees are used in computer science for various tasks, including storing information, representing hierarchical data, and providing efficient algorithms for operations such as insertion, deletion, and searching.
 
-## Lazy loading
+![In Browser](./Image/14.webp)
 
-In most ORM tools, such as Hibernate, SQLAlchemy, or Django ORM, lazy loading is the default behavior. Basically, the ORM will only fetch the data you explicitly request from the database, and will delay loading any related data until you make use of it. The ORM will not fetch the user's posts until you call user.posts if, for example, you have a User model and a Post model. If you need to access the related data later, this can lead to multiple queries and performance issues if you reduce the initial query time and memory usage.
+## Types of Trees
 
+1. General Tree: The most basic type of tree. It is made up of nodes that can have any number of child nodes and there is  no specific relationship between the nodes.
 
-## Eager loading
+2. Binary tree: in this type every node can have no more than two child nodes. The left child node is always less than the parent node, and the right child node is always greater than or equal to the parent node. 
 
-An eager loading approach differs from a lazy loading approach. In other words, it means that the ORM will retrieve all the information from the database that you may need in a single query, including the related data. The ORM, for example, will display the posts of the user using a subquery or a join when you query for a particular user. In this way, the performance can be improved and the N+1 query problem can be avoided, which occurs when it is necessary to make a query for every related object. In addition, eager loading can also increase query complexity and memory usage, as well as fetch unnecessary data if you do not require it.
+3. Binary Search Tree: Here every node has a value greater than all the values in its left subtree and less than all the values in its right subtree. 
 
+4. AVL Tree: in this type each node has a value that is greater than all the values in its left subtree and less than all the values in its right subtree, and an AVL tree must also be balanced, meaning that the difference between the heights of the left subtree and right subtree must be no more than 1.
 
-## How I can choose
+5. Red-Black Tree: Here each node has an extra bit associated with it that denotes its color (red or black), certain constraints must be met for an RBT to be valid
 
+![In Browser](./Image/15.jpg)
 
-Choosing between lazy loading and eager loading depends on your application's needs and trade-offs. There is a general consensus that lazy loading is better suited to situations in which there is no frequent need to access the related data, or when you need to filter or paginate the related data. A scenario in which eager loading would be more suitable would be if you frequently access associated data, or if you need to perform calculations or aggregates on the data. Depending on the context, you can also use a hybrid approach to eagerly load some data and lazy load others.
+## Tree Parameters
+
+- Root: 
+
+   the node from where a Tree originates. A root has no parents. 
+
+- Edge: 
+THe connected element to some other element.
+
+- Leaf node: 
+
+  node without any children
+
+- Siblings: 
+
+  Multiple elements with same parent are known as siblings
+
+- Ancestors: 
+
+  when connection between the root node and a node q, and node lies between the path of root->q.
+
+- Descendants: 
+
+  Opposite of ancestor, where q will be the descendant of whatever node that lies in the path.
+
+- Depth of a node: 
+
+  It is the number of links it requires to reach to a particular node from the root.
+
+- Height of Tree: 
+  hTe distance between the root and the deepest node in tree.
+
+- Size of a Node: 
+
+  The number of descendants a node has including itself. 
