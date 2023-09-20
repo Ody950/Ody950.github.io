@@ -15,23 +15,23 @@ The payment gateway is the interface through which credit cards are entered into
 
 
 
-Prerequisites
+### Prerequisites
 
 Assuming you are familiar with .NET Core concepts, particularly the MVC pattern, I assume you have knowledge of object-oriented programming concepts in C#.
 
 To code along with me, you will have to install the .NET Core 2.2, as well as Visual Studio. You can also use another IDE instead of a visual studio.
 
-Braintree Implementation:
+### Braintree Implementation:
 
-    Set up Braintree account
+    - Set up Braintree account
 
-    Set up the development environment
+    - Set up the development environment
 
-    Generate client tokens
+    - Generate client tokens
 
-    Card payments
+    - Card payments
 
-    In order to set up a Braintree account, first we must sign up for the account at Braintreepayment.com. We will receive a sandbox account from Braintree so we can test the API and decide whether or not to push the app into production. Upon successful completion of all of these steps, we must login to sandbox.braintreegatway.com.
+ In order to set up a Braintree account, first we must sign up for the account at Braintreepayment.com. We will receive a sandbox account from Braintree so we can test the API and decide whether or not to push the app into production. Upon successful completion of all of these steps, we must login to sandbox.braintreegatway.com.
 
 
 
@@ -39,19 +39,19 @@ How Does Online Credit Card Processing Work?
 
 Merchant Accounts
 
-    Using a Merchant Account, you can connect to the credit card processing network.
+    - Using a Merchant Account, you can connect to the credit card processing network.
 
-    Merchant Accounts accept (or decline) credit cards and ultimately transfer the funds into your bank account.
+    - Merchant Accounts accept (or decline) credit cards and ultimately transfer the funds into your bank account.
 
 Payment Gateway
 
-    A responsible party is responsible for sending a credit card over a secure channel to the appropriate Internet Merchant Account.
+    - A responsible party is responsible for sending a credit card over a secure channel to the appropriate Internet Merchant Account.
 
-    The gateway acts as a router that sends credit card information to the appropriate account.
+    - The gateway acts as a router that sends credit card information to the appropriate account.
 
 Your Application
 
-    Several different methods can be used to interact with the Payment Gateway. In simple applications, such as shopping carts, the user may be transferred to a web page through the Gateway to process credit card information. Upon completion of the transaction, the user will be returned to the application.
+    - Several different methods can be used to interact with the Payment Gateway. In simple applications, such as shopping carts, the user may be transferred to a web page through the Gateway to proces        - credit card information. Upon completion of the transaction, the user will be returned to the application.
 
 
 
