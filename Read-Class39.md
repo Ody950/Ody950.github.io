@@ -7,32 +7,6 @@ It allows you to create dynamic user interfaces that will adapt to changes in da
 Conditional rendering is a powerful tool in React applications that enables the display of diverse content depending on specific conditions or states. It has the potential to enhance user experience, streamline code, and facilitate the development of more adaptable and flexible components. Through the strategic display and concealment of content based on user actions or application state, a more intuitive and captivating user experience can be achieved. Furthermore, conditional rendering allows for the avoidance of unnecessary component rendering, thereby improving application performance. This is particularly crucial in larger applications where excessive rendering can result in performance-related challenges. By utilizing conditional statements to determine the rendered content, code duplication can be avoided and the creation of more modular components that are easier to maintain can be facilitated.
 
 
-function Greeting(props) {
-  const isLoggedIn = props.isLoggedIn;
-  return (
-    <div>
-      {isLoggedIn ? (
-        <h1>Welcome back!</h1>
-      ) : (
-        <h1>Please sign up.</h1>
-      )}
-    </div>
-  );
-}
-
-
-
-
-
-function Greeting(props) {
-  const isLoggedIn = props.isLoggedIn;
-  return (
-    <div>
-      {isLoggedIn && <h1>Welcome back!</h1>}
-    </div>
-  );
-}
-
 
 
 # Lists and Keys
@@ -40,16 +14,6 @@ function Greeting(props) {
 
 
 There are numerous use-cases where lists are utilized to improve an app's performance. Examples include a list of tasks like a calendar app, a list of pictures like Instagram, or a list of items to shop in a shopping cart. Consider an app that displays a large number of videos as you scroll down the screen. As performance is an essential component, using lists would ensure that the app is designed to perform optimally. 
-
-
-
-const todoItems = todos.map((todo, index) =>
-  // Only do this if items have no stable IDs
-  <li key={index}>
-    {todo.text}
-  </li>
-);
-
 
 
 # Forms
