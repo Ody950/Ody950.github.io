@@ -48,6 +48,7 @@ Documentation is one of the most important components of my study project. Durin
 | Read: Class 35 | [Read-Class35](./Read-Class35.md) |
 | Read: Class 37 | [Read-Class37](./Read-Class37.md) |
 | Read: Class 38 | [Read-Class38](./Read-Class38.md) |
+| Read: Class 39 | [Read-Class39](./Read-Class39.md) |
 
 <div>&nbsp;&emsp;</div>
 <div>&nbsp;&emsp;</div>
